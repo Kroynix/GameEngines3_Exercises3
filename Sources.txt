@@ -1,0 +1,25 @@
+Assets Used:
+
+Sunnyland
+https://assetstore.unity.com/packages/2d/characters/sunny-land-103349
+
+Cute 2D Girl - Wizard
+https://assetstore.unity.com/packages/2d/characters/cute-2d-girl-wizard-155796
+
+Maplestory Elinia Wallpaper
+https://external-preview.redd.it/QXyRhFgxcwomgSMy0gh8VcndLiQQcJeYk4iPIQQoN_0.jpg?auto=webp&s=50873c57621492589589f33777a0f5c9e18d1c56
+
+Aekashics Librarium Megapack 3
+https://assetstore.unity.com/packages/2d/characters/aekashics-librarium-megapack-iii-130410
+
+Learned:
+Discovered Canvas Group from: https://www.youtube.com/watch?v=YYD_tBBS4FY
+
+
+
+Scripts:
+
+CharacterController
+Student: Nathan Nguyen
+Assignment: LabTest2 
+Class: GAME2031 - T631
