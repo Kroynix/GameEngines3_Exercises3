@@ -1,14 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterBehaviour : MonoBehaviour
 {
     [SerializeField]
+    [Header("Forces")]
     public float moveSpeed;
     public float jumpForce;
+
+    [Header("Grounded Information")]
     public Transform groundCheck;
     public LayerMask groundMask;
+
+    [Header("Battle Statistics")]
+    public int battleRate;
 
 
     //Private
@@ -85,9 +92,10 @@ public class CharacterBehaviour : MonoBehaviour
     {
         if (GenerateEncounter == true && isWalking == true && EncounterAvailable == true)
         {
-            if(Random.Range(0,100) <= 1)
+            if(Random.Range(0,100) <= battleRate)
             {
                 Debug.Log("Battle!");
+                SceneManager.LoadSceneAsync("BattleScene");
                 GenerateEncounter = false;
                 EncounterAvailable = false;
             }

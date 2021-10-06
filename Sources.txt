@@ -23,3 +23,12 @@ CharacterController
 Student: Nathan Nguyen
 Assignment: LabTest2 
 Class: GAME2031 - T631
+
+UIBehaviour
+Student: Nathan Nguyen
+Assignment: Assignment1
+Class: GAME2014 - T631
+
+Ideas:
+Octopath Traveler - Combat
+Maplestory - Layout
