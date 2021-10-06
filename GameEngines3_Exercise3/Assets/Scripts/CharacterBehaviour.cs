@@ -94,12 +94,11 @@ public class CharacterBehaviour : MonoBehaviour
         {
             if(Random.Range(0,100) <= battleRate)
             {
-                Debug.Log("Battle!");
+                //Debug.Log("Battle!");
                 SceneManager.LoadSceneAsync("BattleScene");
                 GenerateEncounter = false;
                 EncounterAvailable = false;
             }
-            GenerateEncounter = false;
         }
     }
 
